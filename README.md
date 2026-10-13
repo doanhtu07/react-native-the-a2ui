@@ -76,6 +76,10 @@ Then, add your custom components to the renderer's catalog.
 - Component will only get @a2ui/web_core component context
 - You manage the props yourself
 
+## Contributing
+
+- Check out notes on contributing: [CONTRIBUTING.md](./CONTRIBUTING.md)
+
 ## Resources
 
 - https://a2ui.org/guides/renderer-development/

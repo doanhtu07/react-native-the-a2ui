@@ -8,8 +8,12 @@
   "packageManager": "pnpm@12.9.1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "clean-deps": "bash ./scripts/clean-deps.sh",
     "prepare": "husky",
-    "typecheck": "pnpm -r typecheck"
+    "typecheck": "pnpm -r --parallel typecheck",
+    "build:packages": "bash ./scripts/build-packages.sh",
+    "release:version": "changeset version",
+    "release:tag": "node scripts/tag-release.mjs"
   },
   "devDependencies": {
     "@changesets/cli": "^3.0.3",
