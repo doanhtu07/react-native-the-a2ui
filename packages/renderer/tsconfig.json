@@ -9,8 +9,8 @@
       "@a2ui/web_core/v0_9/basic_catalog/functions": [
         "../../node_modules/@a2ui/web_core/src/v0_9/basic_catalog/functions/basic_functions"
       ],
-      "@a2ui/web_core/v0_9/basic_catalog/theme": [
-        "../../node_modules/@a2ui/web_core/src/v0_9/basic_catalog/theme"
+      "@a2ui/web_core/universal/basic_catalog/theme": [
+        "../../node_modules/@a2ui/web_core/src/universal/basic_catalog/theme"
       ]
     },
     "allowUnreachableCode": false,

@@ -23,7 +23,8 @@ const VIRTUAL_SUBPATHS = {
     'v0_9/basic_catalog/components/basic_components.js',
   '@a2ui/web_core/v0_9/basic_catalog/functions':
     'v0_9/basic_catalog/functions/basic_functions.js',
-  '@a2ui/web_core/v0_9/basic_catalog/theme': 'v0_9/basic_catalog/theme.js',
+  '@a2ui/web_core/universal/basic_catalog/theme':
+    'universal/basic_catalog/theme.js',
 }
 
 /** Maps each virtual subpath to its file in the installed web_core. */

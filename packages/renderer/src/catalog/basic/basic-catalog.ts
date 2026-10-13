@@ -1,6 +1,6 @@
 import { Catalog } from '@a2ui/web_core'
 import { BASIC_FUNCTIONS } from '@a2ui/web_core/v0_9/basic_catalog/functions'
-import { BasicCatalogThemeSchema } from '@a2ui/web_core/v0_9/basic_catalog/theme'
+import { BasicCatalogThemeSchema } from '@a2ui/web_core/universal/basic_catalog/theme'
 
 import type { ReactComponentImplementation } from '../../react_component_implementation'
 import { Text } from './components/text'
