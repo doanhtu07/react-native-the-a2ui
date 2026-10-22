@@ -9,7 +9,7 @@ import { Image } from 'react-native'
  * points at Metro on the LAN, in production builds it is a bundled
  * on-device asset.
  */
-const uri = (module: number) => Image.resolveAssetSource(module).uri
+const uri = (module: number) => Image.resolveAssetSource(module)?.uri ?? ''
 
 export const galleryImages = {
   icon: uri(require('../assets/images/gallery/gallery-icon.png')),
