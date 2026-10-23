@@ -2,6 +2,19 @@
 
 A2UI renderer for React Native
 
+[![npm version](https://img.shields.io/npm/v/@the-a2ui/renderer.svg)](https://www.npmjs.com/package/@the-a2ui/renderer)
+
+## Packages
+
+All `@the-a2ui/*` packages are released together in lockstep from the same
+`v<version>` tag.
+
+| Package                              | npm                                                  | Install                    |
+| ------------------------------------ | ---------------------------------------------------- | -------------------------- |
+| [`@the-a2ui/renderer`][npm-renderer] | [npmjs.com/package/@the-a2ui/renderer][npm-renderer] | `npm i @the-a2ui/renderer` |
+
+[npm-renderer]: https://www.npmjs.com/package/@the-a2ui/renderer
+
 ## Setup
 
 The renderer imports web_core's basic catalog from files its `exports` map doesn't expose yet. Wrap your Metro config with `withA2ui` so they resolve without pulling in Lit:
