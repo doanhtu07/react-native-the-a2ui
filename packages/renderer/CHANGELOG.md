@@ -1,5 +1,11 @@
 # @the-a2ui/renderer
 
+## 0.3.0
+
+### Minor Changes
+
+- Upgrade to @a2ui/web_core v0.15.0
+
 ## 0.2.0
 
 ### Minor Changes
