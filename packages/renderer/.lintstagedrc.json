@@ -1,3 +1,7 @@
 {
-  "*.{js,ts,tsx}": ["eslint --fix", "prettier --write"]
+  "**/*.{js,jsx,mjs,cjs,ts,tsx}": [
+    "pnpm --filter @the-a2ui/renderer exec eslint --fix",
+    "pnpm --filter @the-a2ui/renderer exec prettier --write"
+  ],
+  "**/*.{css,html,json,md,yaml,yml}": "pnpm --filter @the-a2ui/renderer exec prettier --write"
 }
