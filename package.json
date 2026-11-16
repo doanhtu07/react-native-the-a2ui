@@ -13,7 +13,8 @@
     "typecheck": "pnpm -r --parallel typecheck",
     "build:packages": "bash ./scripts/build-packages.sh",
     "release:version": "changeset version",
-    "release:tag": "node scripts/tag-release.mjs"
+    "release:tag": "node scripts/tag-release.mjs",
+    "prune-exclude": "tsx scripts/prune-release-age-exclude.ts"
   },
   "devDependencies": {
     "@changesets/cli": "^3.0.3",
@@ -21,6 +22,7 @@
     "@commitlint/config-conventional": "^21.2.4",
     "husky": "^9.1.7",
     "lint-staged": "^17.6.0",
-    "prettier": "^3.9.10"
+    "prettier": "^3.9.10",
+    "tsx": "^4.23.15"
   }
 }
